@@ -8,7 +8,7 @@ const Sauce = require("./models/sauces");
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
-  "mongodb+srv://hdy-p6:<AVcOC5BPG7WQsDbj>@cluster0.vvf9fuq.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://hdy-p6:<password>@cluster0.vvf9fuq.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
