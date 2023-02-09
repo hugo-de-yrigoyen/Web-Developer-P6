@@ -69,9 +69,11 @@ app.use((req, res, next) => {
   next();
 });
 
+//Préviens une erreur CORS
 app.options("/*", (_, res) => {
   res.sendStatus(200);
 });
+
 app.use(bodyParser.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));

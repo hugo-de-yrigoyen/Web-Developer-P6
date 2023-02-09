@@ -4,22 +4,22 @@ const schema = new passwordValidator();
 
 schema
   .is()
-  .min(8) // Minimum length 8
+  .min(8) //Minimum 8 caractères
   .is()
-  .max(100) // Maximum length 100
+  .max(100) //Maximum 100 caractères
   .has()
-  .uppercase() // Doit avoir des lettres majuscules
+  .uppercase() //Doit avoir au moins une lettre majuscule
   .has()
-  .lowercase() // Doit contenir des lettres minuscules
+  .lowercase() //Doit avoir au moins une lettre minuscule
   .has()
-  .digits(2) //   Doit avoir au moins 2 chiffres
+  .digits(2) //Doit avoir au moins 2 chiffres
 
   .has()
   .not()
-  .spaces() // Ne devrait pas avoir d'espaces
+  .spaces() //Ne doit pas avoir d'espaces
   .is()
   .not()
-  .oneOf(["Passw0rd", "Password123"]); // Mettre ces valeurs sur liste noire
+  .oneOf(["Passw0rd", "Password123"]); //Mettre ces valeurs sur liste noire
 
 module.exports = (req, res, next) => {
   if (schema.validate(req.body.password)) {

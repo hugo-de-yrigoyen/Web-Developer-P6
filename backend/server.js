@@ -40,6 +40,7 @@ const errorHandler = (error) => {
 
 const server = http.createServer(app);
 
+//Au démarrage du serveur, gestion des erreurs et écoute sur le port définit précédemment
 server.on("error", errorHandler);
 server.on("listening", () => {
   const address = server.address();
@@ -47,4 +48,5 @@ server.on("listening", () => {
   console.log("Listening on " + bind);
 });
 
+//Démarrage du serveur
 server.listen(port);
