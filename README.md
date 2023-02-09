@@ -1,15 +1,16 @@
 # Piiquante
 
-Construire une API sécurisée
+Construire une API sécurisée à partir d'un frontend pré-établi
 
 ## Installation
 
 A la racine du dossier, lancez la commande _npm install_ pour installer Node.js
 
-Dans le dossier backend, indiquez dans le fichier .env.example :
+Dans le fichier .env.example du dossier backend :
 
-- Vos informations de connexion à la base de donnée MongoDB
-- Un Token d'authentification
+- Indiquez les informations de connexion à une base de donnée MongoDB
+- Ainsi qu'un token d'authentification
+- Renommez le fichier .env
 
 ## Démarrage
 
