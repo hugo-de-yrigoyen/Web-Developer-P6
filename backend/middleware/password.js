@@ -21,11 +21,6 @@ schema
   .not()
   .oneOf(["Passw0rd", "Password123"]); // Mettre ces valeurs sur liste noire
 
-console.log(schema.validate("validPASS123"));
-// => true
-console.log(schema.validate("invalidPASS"));
-// => false
-
 module.exports = (req, res, next) => {
   if (schema.validate(req.body.password)) {
     next();
