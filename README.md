@@ -4,7 +4,7 @@ Construire une API sécurisée à partir d'un frontend pré-établi
 
 ## Installation
 
-A la racine du dossier, lancez la commande _npm install_ pour installer Node.js
+A la racine du dossier frontend, lancez la commande _npm install_ pour installer Node.js
 
 Dans le fichier .env.example du dossier backend :
 
