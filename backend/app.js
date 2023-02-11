@@ -25,7 +25,7 @@ const express = require("express");
 //On définit notre application fonctionnant avec express
 const app = express();
 
-//middleware qui parse les requêtes afin de pouvoir les lire
+//Middleware qui parse les requêtes afin de pouvoir les lire
 const bodyParser = require("body-parser");
 
 //Bibliothèque qui créé la connexion entre la base de donnée MongoDB et le serveur Node.js
