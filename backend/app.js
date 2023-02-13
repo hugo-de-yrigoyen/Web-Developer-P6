@@ -33,6 +33,7 @@ const mongoose = require("mongoose");
 
 //Plugin Mongoose pour signaler les erreurs dans la base de donnée
 const mongodbErrorHandler = require("mongoose-mongodb-errors");
+mongoose.plugin(mongodbErrorHandler);
 
 //Importation des routes
 const sauceRoutes = require("./routes/sauces");
@@ -83,7 +84,6 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(xss());
 app.use(mongoSanitize());
 app.use(limiter);
-mongoose.plugin(mongodbErrorHandler);
 app.use("/images", express.static(path.join(__dirname, "images")));
 app.use("/api/sauces", sauceRoutes);
 app.use("/api/auth", userRoutes);
