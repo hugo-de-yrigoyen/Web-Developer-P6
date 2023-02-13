@@ -1,5 +1,9 @@
 const User = require("../models/user");
+
+//Générateur de hash pour les mots de passe
 const bcrypt = require("bcrypt");
+
+//Intègre les JSON web tokens afin de faire des échanges sécurisés avec la base de donnée
 const jwt = require("jsonwebtoken");
 
 //Créer un compte

@@ -1,3 +1,4 @@
+//Intègre les JSON web tokens afin de faire des échanges sécurisés avec la base de donnée
 const jwt = require("jsonwebtoken");
 
 module.exports = (req, res, next) => {

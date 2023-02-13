@@ -1,4 +1,6 @@
 const Sauce = require("../models/sauces");
+
+//Créé et gère des fichiers, ici les images des sauces
 const fs = require("fs");
 
 //Créer une nouvelle sauce

@@ -2,6 +2,8 @@ const express = require("express");
 const auth = require("../middleware/auth");
 const sauceRoutes = express.Router();
 const sauceCtrl = require("../controllers/sauces");
+
+//Middleware qui gère ici le téléchargement des images dans la base de donnée
 const multer = require("../middleware/multer-config");
 
 sauceRoutes.get("/", auth, sauceCtrl.getAllSauces);
