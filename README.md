@@ -1,6 +1,6 @@
 # Piiquante
 
-Construire une API sécurisée à partir d'un frontend pré-établi
+API sécurisée construite à partir d'un frontend pré-établi
 
 ## Installation
 
