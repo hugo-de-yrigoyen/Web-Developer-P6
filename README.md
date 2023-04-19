@@ -17,3 +17,11 @@ Dans le fichier .env.example du dossier backend :
 Lancer le frontend avec _npm start_
 
 Lancer le backend avec _nodemon server_ ou _node server_
+
+## Évaluation
+
+- Projet validé
+- Commentaires :
+  ![Évaluation 1](evaluation/evaluation1.png "Évaluation 1")
+  ![Évaluation 2](evaluation/evaluation2.png "Évaluation 2")
+  ![Évaluation 3](evaluation/evaluation3.png "Évaluation 3")
