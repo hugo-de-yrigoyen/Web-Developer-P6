@@ -1,6 +1,15 @@
-# Piiquante
+# Piiquante - Projet d'études
 
-Construire une API sécurisée à partir d'un frontend pré-établi
+- https://hugo-de-yrigoyen.github.io/piiquante/
+- Dans le cadre de mes études de développeur web
+- API sécurisée construite à partir d'un frontend pré-établi en **JS uniquement** (pas d'autre language ou de framework autorisé)
+
+## Contexte
+
+- Instructions :
+  https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Requirements_DW_P6.pdf
+- Frontend fourni :
+  https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
 
 ## Installation
 
