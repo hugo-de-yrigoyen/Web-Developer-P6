@@ -2,7 +2,9 @@
 
 - https://hugo-de-yrigoyen.github.io/piiquante/
 - Dans le cadre de mes études de développeur web
-- API RESTful sécurisée développée en Javascript avec une base de donnée MongoDB à partir d'un frontend pré-établi en **Javascript uniquement** (pas d'autre language ou de framework autorisé)
+- API RESTful
+- Node.js
+- MongoDB
 
 ## Contexte
 
