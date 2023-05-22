@@ -3,7 +3,7 @@
 - https://hugo-de-yrigoyen.github.io/piiquante/
 - Dans le cadre de mes études de développeur web
 - API RESTful
-- Node.js
+- Node.js/Express.js
 - MongoDB
 
 ## Contexte
